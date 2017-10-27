@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  list-style: none; }
+
+nav#reg-nav {
+  float: right; }
+
+header {
+  background: #282828;
+  padding-top: 10px; }
+  header div.text1-div {
+    margin: auto;
+    margin: 30px;
+    position: relative;
+    left: 40px; }
+  header h1.header-text {
+    font-family: "Desdemona", "Bernard MT Condensed";
+    font-size: 40px;
+    color: white; }
+  header p.mini {
+    color: orange; }
+  header h2.subheader-text {
+    font-family: "Arial Narrow", "Desdemona";
+    font-size: 17px;
+    color: orange; }
+
+div#main-wrapper {
+  background: url("site-pics/backgrounds/grey2.jpg") fixed no-repeat;
+  width: 1000px;
+  height: 1000px; }

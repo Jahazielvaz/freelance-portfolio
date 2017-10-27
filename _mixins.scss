@@ -1,0 +1,57 @@
+//MAIN HEADER
+
+@mixin main-header{
+  background: $bg-color2;
+  padding-top: 10px;
+
+  div.text1-div{
+    margin: auto;
+    margin: 30px;
+    position:relative;
+    left: 40px;
+  }
+
+  h1.header-text{
+    @include font-headings;
+  }
+
+  h2.subheader-text{
+    @include font-subHeadings;
+    position:relative;
+    left: 10px;
+  }
+}
+
+
+
+//RADIUS
+@mixin radius($radius){
+  border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+//FONTS
+@mixin font-headings{
+  font-family: "Desdemona", "Bernard MT Condensed";
+  font-size: 40px;
+  color: $tx-main-color;
+}
+
+@mixin font-subHeadings{
+  font-family: "Arial Narrow", "Desdemona";
+  font-size: 17px;
+  color: $tx-secondary-color;
+}
+
+@mixin font-buttons{
+  font-family: "Abadi MT Condensed Extra Bold", "verdana";
+  font-size: 30px;
+  color: $tx-secondary-color;
+}
+
+@mixin font-regular{
+  font-family: "verdana","arial";
+  color: $tx-main-color;
+}

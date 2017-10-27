@@ -1,0 +1,20 @@
+@font-face {
+  font-family: aFont;
+  src: url("aFont.eot");
+  /* For IE browsers */ }
+
+@font-face {
+  font-family: aFont;
+  src: url("aFont.ttf");
+  /* For most other browsers */ }
+
+.myFontClass {
+  font-family: aFont, Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: #4D7731; }
+
+/*
+FOLLOW THESE STEPS TO USE THE CUSTOM FONTS THAT HAVE BEEN INCLUDED ON THIS FILE
+1- The CSS classes for each of the different fonts have been created here. In order to use them you just need to add that class to your html
+
+*/

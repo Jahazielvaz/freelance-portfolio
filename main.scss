@@ -1,0 +1,23 @@
+
+*{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+
+
+
+//CSS ATTACHED PAGES------------------------------------------------
+
+@import "_mixins.scss";
+@import "_variables.scss";
+@import "_images.scss";
+@import "_navs.scss";
+@import "_site-texts.scss";
+@import "_header.scss";
+@import "_body.scss";

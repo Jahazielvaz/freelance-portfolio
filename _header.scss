@@ -1,0 +1,23 @@
+header{
+  background: $bg-color2;
+  padding-top: 10px;
+
+  div.text1-div{
+    margin: auto;
+    margin: 30px;
+    position:relative;
+    left: 40px;
+  }
+
+  h1.header-text{
+    @include font-headings;
+  }
+
+  p.mini{
+    color:$tx-secondary-color;
+  }
+
+  h2.subheader-text{
+    @include font-subHeadings;
+  }
+}
