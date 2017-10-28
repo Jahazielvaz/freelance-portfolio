@@ -3,12 +3,16 @@
 @mixin main-header{
   background: $bg-color2;
   padding-top: 10px;
+  padding-bottom: 20px;
 
   div.text1-div{
     margin: auto;
-    margin: 30px;
+    margin: 0px 20px 0px 20px;
+    padding-left: 20px;
+    padding-right: 60px;
     position:relative;
-    left: 40px;
+    left: 100px;
+    top: 40px;
   }
 
   h1.header-text{
@@ -17,12 +21,77 @@
 
   h2.subheader-text{
     @include font-subHeadings;
-    position:relative;
-    left: 10px;
+    padding-right: 60px;
   }
 }
 
+//HYPERLINK COLOR
 
+@mixin hyperLinks($colors){
+  a:link{
+    text-decoration: none;
+    color: $colors;
+  }
+
+  -moz-a:link{
+    text-decoration: none;
+    color: $colors;
+  }
+
+  -ms-a:link{
+    text-decoration: none;
+    color: $colors;
+  }
+
+  -webkit-a:link{
+    text-decoration: none;
+    color: $colors;
+  }
+}
+
+@mixin hyperVisited($colors){
+  a:visited{
+    text-decoration: none;
+    color: $colors;
+  }
+
+  -moz-a:visited{
+    text-decoration: none;
+    color: $colors;
+  }
+
+  -ms-a:visited{
+    text-decoration: none;
+    color: $colors;
+  }
+
+  -webkit-a:visited{
+    text-decoration: none;
+    color: $colors;
+  }
+}
+
+@mixin hyperHover($colors){
+  a:hover{
+    text-decoration: none;
+    color: $colors;
+  }
+
+  -moz-a:hover{
+    text-decoration: none;
+    color: $colors;
+  }
+
+  -ms-a:hover{
+    text-decoration: none;
+    color: $colors;
+  }
+
+  -webkit-a:hover{
+    text-decoration: none;
+    color: $colors;
+  }
+}
 
 //RADIUS
 @mixin radius($radius){
@@ -54,4 +123,19 @@
 @mixin font-regular{
   font-family: "verdana","arial";
   color: $tx-main-color;
+}
+
+
+//BORDERS METHODS
+
+@mixin border-thin($colors){
+  border: 3px solid $colors;
+}
+
+@mixin border-double($colors){
+  border: 7px double $colors;
+}
+
+@mixin border-large($colors){
+  border: 10px solid $colors;
 }

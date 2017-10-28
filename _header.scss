@@ -1,23 +1,29 @@
 header{
   background: $bg-color2;
-  padding-top: 10px;
+  padding-bottom: 20px;
 
   div.text1-div{
+    max-width: 600px;
     margin: auto;
-    margin: 30px;
+    //margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 220px;
+    display: inline-block;
     position:relative;
-    left: 40px;
+    top: 60px;
+
   }
 
   h1.header-text{
     @include font-headings;
-  }
-
-  p.mini{
-    color:$tx-secondary-color;
+    display: block;
   }
 
   h2.subheader-text{
     @include font-subHeadings;
+    padding-right: 60px;
+    display: block;
   }
+
+  //THE HEADER NAV IS ON THE _navs.scss SECTION
 }

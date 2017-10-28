@@ -1,4 +1,38 @@
+div.nav-block{
+  margin: auto;
+  margin: 20px;
+  //max-width: 300px;
+  //position:relative;
+  bottom: 20px;
+  left:500px;
+}
+
 nav#reg-nav{
+  margin:auto;
+  margin: 30px;
+  color: $tx-secondary-color;
+  padding-left: 10px;
+  padding-right: 10px;
   float:right;
-  
+  position:relative;
+  bottom: 60px;
+
+}
+
+ul#reg-ul{
+  margin-right: 20px;
+}
+
+li.reg-li{
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width:80px;
+  background-color: $bg-color1;
+  @include hyperLinks($tx-secondary-color);
+  @include hyperVisited($tx-secondary-color);
+  @include hyperHover($tx-secondary-color);
+  text-align: center;
+  @include radius(10px);
+
 }

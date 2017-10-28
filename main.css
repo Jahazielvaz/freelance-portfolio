@@ -4,29 +4,99 @@
   padding: 0;
   list-style: none; }
 
+div.nav-block {
+  margin: auto;
+  margin: 20px;
+  bottom: 20px;
+  left: 500px; }
+
 nav#reg-nav {
-  float: right; }
+  margin: auto;
+  margin: 30px;
+  color: orange;
+  padding-left: 10px;
+  padding-right: 10px;
+  float: right;
+  position: relative;
+  bottom: 60px; }
+
+ul#reg-ul {
+  margin-right: 20px; }
+
+li.reg-li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 80px;
+  background-color: #1E1E1E;
+  text-align: center;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -webkit-border-radius: 10px; }
+  li.reg-li a:link {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li -moz-a:link {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li -ms-a:link {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li -webkit-a:link {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li a:visited {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li -moz-a:visited {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li -ms-a:visited {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li -webkit-a:visited {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li a:hover {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li -moz-a:hover {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li -ms-a:hover {
+    text-decoration: none;
+    color: orange; }
+  li.reg-li -webkit-a:hover {
+    text-decoration: none;
+    color: orange; }
 
 header {
   background: #282828;
-  padding-top: 10px; }
+  padding-bottom: 20px; }
   header div.text1-div {
+    max-width: 600px;
     margin: auto;
-    margin: 30px;
+    margin-left: 50px;
+    margin-right: 220px;
+    display: inline-block;
     position: relative;
-    left: 40px; }
+    top: 60px; }
   header h1.header-text {
     font-family: "Desdemona", "Bernard MT Condensed";
     font-size: 40px;
-    color: white; }
-  header p.mini {
-    color: orange; }
+    color: white;
+    display: block; }
   header h2.subheader-text {
     font-family: "Arial Narrow", "Desdemona";
     font-size: 17px;
-    color: orange; }
+    color: orange;
+    padding-right: 60px;
+    display: block; }
 
 div#main-wrapper {
-  background: url("site-pics/backgrounds/grey2.jpg") fixed no-repeat;
-  width: 1000px;
-  height: 1000px; }
+  background: url("site-pics/backgrounds/shades4.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  padding: 20px 0px 100px 0px; }
