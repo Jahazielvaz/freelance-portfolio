@@ -71,6 +71,9 @@ li.reg-li {
     text-decoration: none;
     color: orange; }
 
+@media (min-width: 1020px) {
+  font-size-adjust: 10px; }
+
 header {
   background: #282828;
   padding-bottom: 20px; }

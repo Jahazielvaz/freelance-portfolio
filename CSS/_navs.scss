@@ -36,3 +36,7 @@ li.reg-li{
   @include radius(10px);
 
 }
+
+@media(min-width: 1020px) {
+  font-size-adjust:10px;
+}
